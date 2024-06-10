@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    font-family: 'Noto sans', sans-serif;
+}
+
+.main-about {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background: #000;
+    padding: 34px;
+    z-index: 1000;
+}
+
+a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 1%;
+}
+
+.texto {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    z-index: 2; 
+}
+
+.texto h1 {
+    font-size: 112px;
+    color: white;
+}
+.carrossel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+}
+
+.pé {
+    text-align: center;
+}
+
+.pé img {
+    width: 30px;
+    height: 30px;
+}
+
+  
